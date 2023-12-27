@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bnhcgf5rqqpgx"
+path="res://.godot/imported/summer nights.ogg-35255daffba5a4e2947e34dc39c7e352.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets jo maine rakhe/Music by Ansimuz/summer nights.ogg"
+dest_files=["res://.godot/imported/summer nights.ogg-35255daffba5a4e2947e34dc39c7e352.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://nrp1igjl5lj6"
+path="res://.godot/imported/platformer_level03_loop.ogg-40c67804f2f046dd97dda2d60a154eee.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets jo maine rakhe/sunny-land/assets/sound/platformer_level03_loop.ogg"
+dest_files=["res://.godot/imported/platformer_level03_loop.ogg-40c67804f2f046dd97dda2d60a154eee.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

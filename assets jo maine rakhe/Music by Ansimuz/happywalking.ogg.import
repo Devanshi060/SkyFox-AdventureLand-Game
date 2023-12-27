@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c83svn7m65kl0"
+path="res://.godot/imported/happywalking.ogg-0148b1bbc712e1b1163ee4185cfd1882.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets jo maine rakhe/Music by Ansimuz/happywalking.ogg"
+dest_files=["res://.godot/imported/happywalking.ogg-0148b1bbc712e1b1163ee4185cfd1882.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

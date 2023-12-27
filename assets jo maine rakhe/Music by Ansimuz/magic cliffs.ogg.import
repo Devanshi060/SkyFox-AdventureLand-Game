@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bbm6xdy8jcnub"
+path="res://.godot/imported/magic cliffs.ogg-2b539f09dc7a17f5d0d406961679c29d.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets jo maine rakhe/Music by Ansimuz/magic cliffs.ogg"
+dest_files=["res://.godot/imported/magic cliffs.ogg-2b539f09dc7a17f5d0d406961679c29d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

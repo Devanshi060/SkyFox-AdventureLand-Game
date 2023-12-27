@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://rd2uolkegbbc"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_72lkj"]
+[ext_resource type="PackedScene" uid="uid://b168isk6xpbvk" path="res://bg.tscn" id="2_bdn7e"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_72lkj")
+
+[node name="play" type="Button" parent="."]
+offset_left = 460.0
+offset_top = 190.0
+offset_right = 683.0
+offset_bottom = 321.0
+text = "Play"
+
+[node name="quit" type="Button" parent="."]
+offset_left = 460.0
+offset_top = 402.0
+offset_right = 683.0
+offset_bottom = 533.0
+text = "Quit"
+
+[node name="bg" parent="." instance=ExtResource("2_bdn7e")]
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 407.0
+offset_top = 27.0
+offset_right = 719.0
+offset_bottom = 118.0
+text = "            
+              SkyFox AdventureLand"
+
+[node name="TextEdit2" type="TextEdit" parent="."]
+offset_left = 502.0
+offset_top = 587.0
+offset_right = 655.0
+offset_bottom = 624.0
+text = "  Devanshi & Isha"
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]

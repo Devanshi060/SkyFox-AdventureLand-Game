@@ -1,0 +1,141 @@
+[gd_scene load_steps=4 format=3 uid="uid://b168isk6xpbvk"]
+
+[ext_resource type="Script" path="res://bg.gd" id="1_quira"]
+[ext_resource type="Texture2D" uid="uid://57r4ecpulvjx" path="res://sunny-land/assets/environment/back.png" id="1_wjbum"]
+[ext_resource type="Texture2D" uid="uid://dv6mel3dp1juo" path="res://sunny-land/assets/environment/middle.png" id="3_5v3pn"]
+
+[node name="bg" type="ParallaxBackground"]
+script = ExtResource("1_quira")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(2160, 0)
+
+[node name="Back" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(544, 352)
+scale = Vector2(2.82292, 2.95)
+texture = ExtResource("1_wjbum")
+
+[node name="Back2" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1624, 352)
+scale = Vector2(2.82292, 2.95)
+texture = ExtResource("1_wjbum")
+
+[node name="Middle" type="Sprite2D" parent="."]
+position = Vector2(88, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle5" type="Sprite2D" parent="."]
+position = Vector2(440, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle2" type="Sprite2D" parent="."]
+position = Vector2(264, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle3" type="Sprite2D" parent="."]
+position = Vector2(616, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle30" type="Sprite2D" parent="."]
+position = Vector2(960, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle6" type="Sprite2D" parent="."]
+position = Vector2(3248, 2024)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle4" type="Sprite2D" parent="."]
+position = Vector2(792, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle25" type="Sprite2D" parent="."]
+position = Vector2(4424, 568)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle26" type="Sprite2D" parent="."]
+position = Vector2(4248, 528)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle27" type="Sprite2D" parent="."]
+position = Vector2(4600, 576)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle28" type="Sprite2D" parent="."]
+position = Vector2(4944, 576)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle29" type="Sprite2D" parent="."]
+position = Vector2(4776, 584)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle7" type="Sprite2D" parent="."]
+position = Vector2(1136, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle8" type="Sprite2D" parent="."]
+position = Vector2(1488, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle9" type="Sprite2D" parent="."]
+position = Vector2(1312, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle10" type="Sprite2D" parent="."]
+position = Vector2(1664, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle11" type="Sprite2D" parent="."]
+position = Vector2(2000, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle12" type="Sprite2D" parent="."]
+position = Vector2(1832, 528)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle13" type="Sprite2D" parent="."]
+position = Vector2(2176, 528)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle14" type="Sprite2D" parent="."]
+position = Vector2(2520, 528)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle15" type="Sprite2D" parent="."]
+position = Vector2(2352, 536)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle16" type="Sprite2D" parent="."]
+position = Vector2(2696, 536)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle17" type="Sprite2D" parent="."]
+position = Vector2(3040, 536)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle18" type="Sprite2D" parent="."]
+position = Vector2(2872, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle19" type="Sprite2D" parent="."]
+position = Vector2(3216, 544)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle20" type="Sprite2D" parent="."]
+position = Vector2(3568, 528)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle21" type="Sprite2D" parent="."]
+position = Vector2(3392, 536)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle22" type="Sprite2D" parent="."]
+position = Vector2(3744, 528)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle23" type="Sprite2D" parent="."]
+position = Vector2(4080, 520)
+texture = ExtResource("3_5v3pn")
+
+[node name="Middle24" type="Sprite2D" parent="."]
+position = Vector2(3912, 536)
+texture = ExtResource("3_5v3pn")
